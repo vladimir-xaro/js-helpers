@@ -1,0 +1,27 @@
+{
+  "name": "@xaro/helpers",
+  "version": "0.0.0",
+  "description": "js helpers",
+  "main": "dist/helpers.es.js",
+  "scripts": {
+    "watch": "cross-env rollup -c -w --environment NODE_ENV:development",
+    "build": "cross-env rollup -c --environment NODE_ENV:development",
+    "watch:prod": "cross-env rollup -c -w --environment NODE_ENV:production",
+    "build:prod": "cross-env rollup -c --environment NODE_ENV:production",
+    "release": "dotenv release-it --"
+  },
+  "keywords": [
+    "helpers"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.1",
+    "deepmerge": "^4.2.2",
+    "rollup-plugin-multi-input": "^1.3.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.2.4"
+  }
+}
