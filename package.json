@@ -1,6 +1,6 @@
 {
   "name": "@xaro/helpers",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "js helpers",
   "main": "dist/helpers.es.js",
   "scripts": {
@@ -15,8 +15,7 @@
   ],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.2.1",
     "deepmerge": "^4.2.2",
