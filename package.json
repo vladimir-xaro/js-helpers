@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "js helpers",
   "main": "dist/helpers.es.js",
+  "types": "dist/helpers.d.ts",
   "scripts": {
     "watch": "cross-env rollup -c -w --environment NODE_ENV:development",
     "build": "cross-env rollup -c --environment NODE_ENV:development",
