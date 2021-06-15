@@ -1,6 +1,6 @@
 {
   "name": "@xaro/helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "js helpers",
   "main": "dist/helpers.es.js",
   "types": "dist/helpers.d.ts",
